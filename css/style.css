@@ -5,6 +5,7 @@ html {
     height: 100%;
     margin: auto 0;
     font-family: "Zen Kaku Gothic Antique", sans-serif;
+    font-sizw: 4em;
 }
 
 header {
@@ -62,7 +63,6 @@ header {
     padding: 0 20px;
     line-height: 1.5;
     opacity: 90%;
-    background-color: red;
 }
 .fixed-bg h1,
 .starter-bg h1 {
