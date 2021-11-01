@@ -140,19 +140,19 @@ img {
 }
 
 .part1 {
-    background-image: url(./resources/bg1.jpeg);
+    background-image: url(../resources/bg1.jpeg);
 }
 
 .part2 {
     background-image: url(../resources/bg2.jpg);
 }
 .part3 {
-    background-image: url(/resources/wow_bg.png);
+    background-image: url(../resources/wow_bg.png);
 }
 .part4 {
-    background-image: url(/resources/bg4.jpeg);
+    background-image: url(../resources/bg4.jpeg);
 }
 
 .part5 {
-    background-image: url(/resources/bg5.jpg);
+    background-image: url(../resources/bg5.jpg);
 }
