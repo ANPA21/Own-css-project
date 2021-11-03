@@ -10,11 +10,13 @@ html {
 header {
     position: absolute;
     top: 0;
-    width: 50%;
-    display: inline-flex;
-    justify-content: space-between;
+    width: 500px;
+    height: auto;
+    min-width: 0;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    padding: 10px 5%;
+    padding: 10px;
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 25px;
 }
@@ -86,15 +88,15 @@ a,
 p,
 button {
     font-weight: 500;
-    font-size: 1.5em;
+    font-size: 1em;
     color: rgba(0, 0, 0, 0.75);
     text-decoration: none;
 }
 .menu img {
-    width: 10%;
-    min-width: 100px;
+    width: 70px;
+    /* min-width: 100px; */
     max-width: 100px;
-    height: auto;
+    height: 50px;
     border: none;
     background-color: rgba(129, 122, 122, 0.589);
     border-radius: 50%;
@@ -111,9 +113,9 @@ use <ul> <li>
 }
 .menu li {
     list-style-type: none;
-    margin: 0;
-    padding: 0 50px 0 50px;
-    font-size: 2em;
+    /* margin: 0; */
+    padding: 0 20px 0 20px;
+    /* font-size: 2em; */
     display: inline;
 }
 
